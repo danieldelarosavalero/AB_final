@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdde1; /* Fondo rosa clarito */
+}
+
+header {
+    background-color: #333;
+    color: #ffdde1;
+    text-align: center;
+    padding: 10px;
+}
+
+.coches-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.coche {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #ffe6ea; /* Fondo rosa más claro */
+}
+
+.coche img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000; /* Borde negro */
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.coche h2 {
+    color: #333;
+    border-bottom: 2px solid #000000; /* Borde negro */
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.coche p {
+    font-size: 16px;
+    color: #4c4c4c; /* Texto gris oscuro */
+    border-bottom: 1px solid #000000; /* Borde negro */
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.coche a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 5;
+    width: 100%;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid #ff1493; /* Borde rosa brillante */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    background-color: #ffe6ea; /* Fondo rosa más claro */
+}
+
+.card img {
+    width: 100%;
+    height: 60%; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+    border-bottom: 2px solid #000000; /* Borde negro en la parte inferior de la imagen */
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff1493; /* Rosa brillante */
+    border-bottom: 2px solid #000000; /* Borde negro */
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #4c4c4c; /* Texto gris oscuro */
+    border-bottom: 1px solid #000000; /* Borde negro */
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #ff69b4; /* Rosa oscuro */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Carrito de compra */
+
+/* Carrito de compra */
+aside {
+    background-color: #ffe6ea; /* Fondo rosa más claro */
+    padding: 20px;
+    border: 2px solid #ff69b4; /* Borde rosa oscuro */
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px; /* Ajusta la posición vertical según tus necesidades */
+    right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    width: 200px;
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4c4c4c; /* Texto gris oscuro */
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ff69b4; /* Borde rosa oscuro */
+    padding-bottom: 5px;
+}
+
+.btn-danger {
+    background-color: #ff1493; /* Rosa brillante */
+    color: #fff;
+    border: none;
+    padding: 5px
+}
+
+/* Estilos para el botón "Ver carrito" en index.html */
+#verCarritoBtn {
+    background-color: #ffe6ea; /* Fondo rosa claro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 16px; /* Ajusta el padding para hacer el botón más pequeño */
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#verCarritoBtn:hover {
+    background-color: #ff1493; /* Cambia el fondo al pasar el ratón rosa fuerte */
+}
+
+
+
+
+
+
+
+

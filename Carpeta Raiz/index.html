@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ruta/a/bootstrap.min.css">
+    <title>Compra y Venta de Coches</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Compra y Venta de Coches</h1>
+
+    <section class="coches-lista">
+        <!-- Repite este bloque para más coches -->
+        <a href="carrito.html" id="verCarritoBtn">Ver carrito</a>
+
+        <div class="coche">
+            <img src="https://cdn.wheel-size.com/automobile/body/subaru-impreza-wrx-sti-2010-2014-1677745062.45567.jpg" alt="Coche 1">
+            <h2>Subaru Impreza WRX STI</h2>
+            <p>Fecha: 2012</p>
+            <p>Precio: 29500.00€</p>
+            <a href="detalles.php?id=11">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://www.supercars.net/blog/wp-content/uploads/2016/02/NISSAN-Skyline-GT-R-V-Spec-R33-4039_12.jpg" alt="Coche 2">
+            <h2>Nissan GTR Skyline</h2>
+            <p>Fecha: 1995</p>
+            <p>Precio: 65000.00€</p>
+            <a href="detalles.php?id=12">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://www.edmunds.com/assets/m/honda/s2000/2004/oem/2004_honda_s2000_convertible_base_fq_oem_1_500.jpg" alt="coche 3">
+            <h2>Honda S2000</h2>
+            <p>Fecha: 2005</p>
+            <p>Precio: 30000.00€</p>
+            <a href="detalles.php?id=13">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://imagenes.km77.com/fotos/bbtcontent/clippingnew/KM7KPH20100322_0132/medium.jpg" alt="coche 4">
+            <h2>Mitsubishi Lancer EVO XII</h2>
+            <p>Fecha: 2002</p>
+            <p>Precio: 45000.00€</p>
+            <a href="detalles.php?id=14">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://cdn-images.motor.es/image/m/720w.webp//fotos-noticias/2016/10/min652x435/honda-nsx-1990-201630982_10.jpg" alt="coche 5">
+            <h2>Honda NSX</h2>
+            <p>Fecha: 1990</p>
+            <p>Precio: 70000.00€</p>
+            <a href="detalles.php?id=15">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://www.km77.com/media/fotos/audi_tt_2019_rs_7062_1.jpg" alt="coche 6">
+            <h2>Audi TTRS</h2>
+            <p>Fecha: 2020</p>
+            <p>Precio: 85000.00€</p>
+            <a href="detalles.php?id=16">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://rspremiumcar.com/wp-content/uploads/2023/01/audi-rs3-sportback-2023-nuevo.jpeg" alt="coche 7">
+            <h2>Audi RS3</h2>
+            <p>Fecha: 2023</p>
+            <p>Precio: 92500.00€</p>
+            <a href="detalles.php?id=17">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/1996_Ford_Escort_RS_Cosworth_2.0_Front.jpg/640px-1996_Ford_Escort_RS_Cosworth_2.0_Front.jpg" alt="coche 8">
+            <h2>Ford Cossworth</h2>
+            <p>Fecha: 2003</p>
+            <p>Precio: 120000.00€</p>
+            <a href="detalles.php?id=18">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://www.eventosmotor.com/wp-content/uploads/2021/03/shelby-cobra-427-super-snake-blog-premium-eventosmotor-8.jpg" alt="coche 9">
+            <h2>Shelby Cobra 427</h2>
+            <p>Fecha: 1966</p>
+            <p>Precio: 250000.00€</p>
+            <a href="detalles.php?id=19">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://img.remediosdigitales.com/3f2126/1969-ford-mustang-boss-429-black-jade-1p/1366_2000.jpg" alt="coche 10">
+            <h2>Ford Mustang</h2>
+            <p>Fecha: 1969</p>
+            <p>Precio: 80000.00€</p>
+            <a href="detalles.php?id=20">Ver detalles</a>
+        </div>
+
+        <div class="coche">
+            <img src="https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2022/01/BMW-M3-E46-5.jpg" alt="coche 11">
+            <h2>BMW e46</h2>
+            <p>Fecha: 2005</p>
+            <p>Precio: 27500.00€</p>
+            <a href="detalles.php?id=21">Ver detalles</a>
+        </div>
+
+        <div id="coches">
+            <!-- Mostrar lista de coches -->
+            <!-- Cada coche debe tener un botón "Agregar al carrito" -->
+        </div>
+
+        <div>
+            <form method="post" action="" name="signup-form">
+                <div class="form-element">
+                    <label>Username</label>
+                    <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+                </div>
+                <div class="form-element">
+                    <label>Email</label>
+                    <input type="email" name="email" required />
+                </div>
+                <div class="form-element">
+                    <label>Password</label>
+                    <input type="password" name="password" required />
+                </div>
+                <button type="submit" name="register" value="register">Register</button>
+            </form>
+        </div>
+
+    
+        <script src="app.js"></script>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Compra y Venta de Coches</p>
+        <p></p>
+    </footer>
+</body>
+</html>
+
+
+

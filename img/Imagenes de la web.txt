@@ -1,0 +1,23 @@
+Aquí están las imágenes empleadas en la web, y estánt en el orden en el que salen presentadas
+
+ID=11 https://cdn.wheel-size.com/automobile/body/subaru-impreza-wrx-sti-2010-2014-1677745062.45567.jpg
+
+ID=12 https://www.supercars.net/blog/wp-content/uploads/2016/02/NISSAN-Skyline-GT-R-V-Spec-R33-4039_12.jpg
+
+ID=13 https://www.edmunds.com/assets/m/honda/s2000/2004/oem/2004_honda_s2000_convertible_base_fq_oem_1_500.jpg
+
+ID=14 https://imagenes.km77.com/fotos/bbtcontent/clippingnew/KM7KPH20100322_0132/medium.jpg
+
+ID=15 https://cdn-images.motor.es/image/m/720w.webp//fotos-noticias/2016/10/min652x435/honda-nsx-1990-201630982_10.jpg
+
+ID=16 https://www.km77.com/media/fotos/audi_tt_2019_rs_7062_1.jpg
+
+ID=17 https://rspremiumcar.com/wp-content/uploads/2023/01/audi-rs3-sportback-2023-nuevo.jpeg
+
+ID=18 https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/1996_Ford_Escort_RS_Cosworth_2.0_Front.jpg/640px-1996_Ford_Escort_RS_Cosworth_2.0_Front.jpg
+
+ID=19 https://www.eventosmotor.com/wp-content/uploads/2021/03/shelby-cobra-427-super-snake-blog-premium-eventosmotor-8.jpg
+
+ID=20 https://img.remediosdigitales.com/3f2126/1969-ford-mustang-boss-429-black-jade-1p/1366_2000.jpg
+
+ID=21 https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2022/01/BMW-M3-E46-5.jpg
